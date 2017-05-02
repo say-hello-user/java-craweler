@@ -4,7 +4,7 @@
 #### 测试主函数
 ![image](https://github.com/say-hello-user/java-craweler/blob/master/1.0/1.png)
 #### 输入验证码
-![image](https://github.com/say-hello-user/java-craweler/blob/master/1.0/FC%252FP%5BSOW2Z33I3~55PRU9.png)
+![image](https://github.com/say-hello-user/java-craweler/blob/master/1.0/2.png)
 
 #### 返回抓取结果
-![image](https://github.com/say-hello-user/java-craweler/blob/master/1.0/FC%2FP[SOW2Z33I3~55PRU9.png)
+![image](https://github.com/say-hello-user/java-craweler/blob/master/1.0/FC%252FP%5BSOW2Z33I3~55PRU9.png)
