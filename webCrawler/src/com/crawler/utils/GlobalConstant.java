@@ -18,9 +18,12 @@ public interface GlobalConstant {
 	public static final String MY_MESSAGE_GNMKDM = "&gnmkdm=N121501";
 	
 <<<<<<< HEAD
+<<<<<<< HEAD
 	public static final String CHANGE_PASSWORD_URL = "http://jwgl.fjnu.edu.cn/mmxg.aspx?xh=";
 	public static final String CHANGE_PASSWORD_GNMKDM = "&gnmkdm=N121502";
 	
+=======
+>>>>>>> b36de55e55427063626017569e84bf29eee05f22
 =======
 >>>>>>> b36de55e55427063626017569e84bf29eee05f22
 	public static final String QUERY_STU_COURSE_URL = "http://jwgl.fjnu.edu.cn/xskbcx.aspx?xh=";// 福建师范大学查询个人课表链接

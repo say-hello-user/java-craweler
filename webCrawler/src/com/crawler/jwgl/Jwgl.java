@@ -1,6 +1,7 @@
 package com.crawler.jwgl;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
@@ -9,10 +10,15 @@ import java.nio.charset.Charset;
 import java.io.IOException;
 import java.io.InputStream;
 >>>>>>> b36de55e55427063626017569e84bf29eee05f22
+=======
+import java.io.IOException;
+import java.io.InputStream;
+>>>>>>> b36de55e55427063626017569e84bf29eee05f22
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
@@ -24,10 +30,16 @@ import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.ClientProtocolException;
 >>>>>>> b36de55e55427063626017569e84bf29eee05f22
+=======
+import org.apache.http.HttpResponse;
+import org.apache.http.NameValuePair;
+import org.apache.http.client.ClientProtocolException;
+>>>>>>> b36de55e55427063626017569e84bf29eee05f22
 import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
+<<<<<<< HEAD
 <<<<<<< HEAD
 import org.apache.http.entity.mime.HttpMultipartMode;
 import org.apache.http.entity.mime.MultipartEntity;
@@ -38,6 +50,11 @@ import org.apache.http.impl.client.HttpClients;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.params.CoreProtocolPNames;
 import org.apache.http.params.HttpParams;
+=======
+import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.client.HttpClients;
+import org.apache.http.message.BasicNameValuePair;
+>>>>>>> b36de55e55427063626017569e84bf29eee05f22
 =======
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
@@ -70,9 +87,12 @@ public class Jwgl {
 
 	private String myMessageGnmkdm = GlobalConstant.MY_MESSAGE_GNMKDM;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
 	private String changePasswordUrl = GlobalConstant.CHANGE_PASSWORD_URL;
 	private String changePasswordGnmkdm = GlobalConstant.CHANGE_PASSWORD_GNMKDM;
+=======
+>>>>>>> b36de55e55427063626017569e84bf29eee05f22
 =======
 >>>>>>> b36de55e55427063626017569e84bf29eee05f22
 	/**
@@ -229,6 +249,7 @@ public class Jwgl {
 		stuCoursePair.add(new BasicNameValuePair("xnd", xnd));
 		stuCoursePair.add(new BasicNameValuePair("xqd", xqd));
 <<<<<<< HEAD
+<<<<<<< HEAD
 		
 		 
 		/*MultipartEntityBuilder builder = MultipartEntityBuilder.create();
@@ -242,6 +263,10 @@ public class Jwgl {
 		UrlEncodedFormEntity entitySource = new UrlEncodedFormEntity(
 				stuCoursePair);
 		
+=======
+		UrlEncodedFormEntity entitySource = new UrlEncodedFormEntity(
+				stuCoursePair);
+>>>>>>> b36de55e55427063626017569e84bf29eee05f22
 =======
 		UrlEncodedFormEntity entitySource = new UrlEncodedFormEntity(
 				stuCoursePair);
@@ -281,6 +306,7 @@ public class Jwgl {
 		String html = IOUtils.getHtml(responseStuCourse.getEntity()
 				.getContent(), "GB2312");
 <<<<<<< HEAD
+<<<<<<< HEAD
 		Document docCourse = Jsoup.parse(html);		
 		Elements eleCourse = docCourse.select("td");
 		for (int i = 0; i < eleCourse.size(); i++) {
@@ -288,12 +314,17 @@ public class Jwgl {
 			System.out.print(eleCourse.get(i).select("img").attr("src"));		
 			System.out.println(eleCourse.get(i).select("input").attr("value"));
 =======
+=======
+>>>>>>> b36de55e55427063626017569e84bf29eee05f22
 		Document docCourse = Jsoup.parse(html);
 		Elements eleCourse = docCourse.select("td");
 		for (int i = 0; i < eleCourse.size(); i++) {
 			System.out.print(eleCourse.get(i).text());
 			System.out.print(eleCourse.get(i).select("img").attr("src"));
 			System.out.print(eleCourse.get(i).select("input").attr("value"));
+<<<<<<< HEAD
+>>>>>>> b36de55e55427063626017569e84bf29eee05f22
+=======
 >>>>>>> b36de55e55427063626017569e84bf29eee05f22
 			if (i % 2 == 0&&i!=0) {
 				System.out.println();
@@ -302,6 +333,7 @@ public class Jwgl {
 	}
 	
 	
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 	
@@ -349,10 +381,13 @@ public class Jwgl {
 	
 =======
 >>>>>>> b36de55e55427063626017569e84bf29eee05f22
+=======
+>>>>>>> b36de55e55427063626017569e84bf29eee05f22
 	
 	public static void main(String[] args) {
 		Jwgl jw = new Jwgl();
 		try {
+<<<<<<< HEAD
 <<<<<<< HEAD
 			jw.login("学号", "密码");
 			/* System.out.println("测试查询学年成绩------");
@@ -361,12 +396,17 @@ public class Jwgl {
 			 jw.queryStuCourse("2015-2016", "1");*/
 			jw.updatePassword("学号","原始密码","新密码");
 =======
+=======
+>>>>>>> b36de55e55427063626017569e84bf29eee05f22
 			jw.login("123012014080", "ljm18750037695");
 			/* System.out.println("测试查询学年成绩------");
 			 jw.queryStuGrade("2016-2017", "1");
 			 System.out.println("查询个人课表测试-------");
 			 jw.queryStuCourse("2015-2016", "1");*/
 			jw.queryMymessage("123012014080");
+<<<<<<< HEAD
+>>>>>>> b36de55e55427063626017569e84bf29eee05f22
+=======
 >>>>>>> b36de55e55427063626017569e84bf29eee05f22
 		} catch (ClientProtocolException e) {
 			e.printStackTrace();
