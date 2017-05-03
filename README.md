@@ -11,4 +11,4 @@
 
 #### 修改个人密码
 
-![image](https://github.com/say-hello-user/java-craweler/blob/master/updatePassword.png）
+![image](https://github.com/say-hello-user/java-craweler/blob/master/updatePassword.png)
