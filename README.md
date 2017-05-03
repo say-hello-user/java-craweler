@@ -8,3 +8,7 @@
 
 #### 返回抓取结果
 ![image](https://github.com/say-hello-user/java-craweler/blob/master/1.0/FC%252FP%5BSOW2Z33I3~55PRU9.png)
+
+#### 修改个人密码
+
+![image](https://github.com/say-hello-user/java-craweler/blob/master/updatePassword.png）
